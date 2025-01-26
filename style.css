@@ -204,3 +204,56 @@ p {
 .card_body {
   padding: 20px;
 }
+
+footer {
+  background-color: hsl(233, 26%, 24%);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+.ft-one {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.social_link {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.social_link .logo-img {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.social_link_list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.ft-nav-1 li,
+.ft-nav-2 li {
+  margin: 10px 0;
+}
+
+.ft-nav-1 li a,
+.ft-nav-2 li a {
+  color: var(--lightGrayishBlue);
+  font-size: 20px;
+}
+
+.ft-two {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.ft-two h4 {
+  color: var(--grayishBlue);
+}
